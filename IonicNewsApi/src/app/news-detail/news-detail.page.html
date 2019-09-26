@@ -1,0 +1,35 @@
+<ion-header>
+  <ion-toolbar color="dark">
+    <ion-buttons slot="start">
+      <ion-back-button></ion-back-button>
+      
+    </ion-buttons>
+    <ion-title>News Detail</ion-title>
+  </ion-toolbar>
+  
+</ion-header>
+
+<ion-content>
+  <ion-card >
+    <ion-card-header>
+      <ion-img [src] = "article.urlToImage"></ion-img>
+      <ion-card-subtitle>{{article.author}}</ion-card-subtitle>
+      <ion-card-title>{{article.title}}</ion-card-title>
+    </ion-card-header>
+  
+    <ion-card-content>
+        {{article.description}}
+    </ion-card-content>
+    <ion-card-content>
+      {{article.content}}
+  </ion-card-content>
+  </ion-card>
+</ion-content>
+<ion-footer>
+  <ion-toolbar color="dark">
+    
+    <p class="ion-text-center" style="font-size: 13px;margin: 0px" >samirenkyorganc@gmail.com</p>
+  <br>
+   <p class="ion-text-center" style="font-size: 13px; margin: 0px" >Powered By <a color="secondary" href="https://newsapi.org">https://newsapi.org/v2</a></p>
+  </ion-toolbar>
+</ion-footer>

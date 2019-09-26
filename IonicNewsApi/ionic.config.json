@@ -1,0 +1,7 @@
+{
+  "name": "IonicNewsApi",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
